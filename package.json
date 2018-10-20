@@ -1,0 +1,19 @@
+{
+  "name": "spruik-token",
+  "version": "1.0.0",
+  "description": "Token for SpruikNet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpruikNet/Spruik-Token.git"
+  },
+  "author": "Gaurav Savanur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpruikNet/Spruik-Token/issues"
+  },
+  "homepage": "https://github.com/SpruikNet/Spruik-Token#readme"
+}
