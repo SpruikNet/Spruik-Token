@@ -23,7 +23,7 @@ contract SafeMath {
 }
 
 
-contract StandardTokenProtocol {
+contract ERC20 {
 
     function totalSupply() constant returns (uint256 totalSupply) {}
     function balanceOf(address _owner) constant returns (uint256 balance) {}
@@ -38,7 +38,7 @@ contract StandardTokenProtocol {
 }
 
 
-contract StandardToken is StandardTokenProtocol {
+contract StandardToken is ERC20 {
 
     modifier when_can_transfer(address _from, uint256 _value) {
         if (balances[_from] >= _value) _;
