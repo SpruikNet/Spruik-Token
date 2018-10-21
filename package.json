@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SpruikNet/Spruik-Token/issues"
   },
-  "homepage": "https://github.com/SpruikNet/Spruik-Token#readme"
+  "homepage": "https://github.com/SpruikNet/Spruik-Token#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
+  }
 }
